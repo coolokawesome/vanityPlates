@@ -12,7 +12,7 @@
 
     <title>Vanity Plates</title>
     <script src="script.js" async></script>
-    <link rel='stylesheet' href="style.css">
+
     <!-- font -->
     <link href="//db.onlinewebfonts.com/c/3a729b6d33f8589706763ff9d4192a19?family=Driver+Gothic+Pro" rel="stylesheet" type="text/css"/>
 <!-- JQuery -->
@@ -20,6 +20,8 @@
   src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
   integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
   crossorigin="anonymous"></script>
+
+  <link rel='stylesheet' href="style.css">
 </head>
 
 <body>
@@ -46,13 +48,15 @@
         </div>
         <div class="row">
             <div class="plate 
-            col-xl-7
-            col-lg-7
-            col-md-7
-            col-sm-12"><div class="rounded-3 m-2 p-3 form-container">
-                <img class="img-fluid" src="plate.png">
-            </div>
-               
+                col-xl-7
+                col-lg-7
+                col-md-7
+                col-sm-12">
+                <div class="rounded-3 m-2 p-3 form-container">
+                    <img class="plate_img img-fluid" src="plate.png">
+                    <!-- plate text goes here vvv -->
+                    <p class='platetext' id="plateText"></p>
+                </div>
             </div>
             <div class="form 
             col-xl-5 
@@ -63,7 +67,7 @@
                     <div>
                         <h3 class=' display-3 text-center'>Enter Text
                         </h3>
-                        <input type="text" class="col-6 offset-3 display-6
+                        <input type="text" id="textBox" class="col-6 offset-3 display-6
                         border border-1 rounded-pill" maxlength="8" minlength="5">
                         </input>
                         <h5 class="display-6 m-5 text-center">Pick a Plate:</h5>
@@ -71,17 +75,17 @@
                             <div class="row">
                                 <div class="col-4">
                                     <label>1</label>
-                                    <input id='1'type="radio" name="plate" id="plateClassic" checked>
+                                    <input id='plateClassic'type="radio" name="plate" checked>
                                     <img class="img-fluid" src="plate.png">
                                 </div>
                                 <div class="col-4">
                                     <label>2</label>
-                                    <input id='2'type="radio" name="plate">
+                                    <input id=''type="radio" name="plate">
                                     <img class="img-fluid" src="#">
                                 </div>
                                 <div class="col-4">
                                     <label>3</label>
-                                    <input id='3'type="radio" name="plate">
+                                    <input id=''type="radio" name="plate">
                                     <img class="img-fluid" src="#">
                                 </div>
 
