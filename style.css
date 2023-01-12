@@ -23,3 +23,6 @@ input {
     color: rgb(32, 32, 117);
     text-shadow: 1px 1px #000000;
 }
+body {
+    font-family: 'Driver Gothic';
+}
