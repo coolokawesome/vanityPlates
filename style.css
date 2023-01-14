@@ -13,29 +13,43 @@
 
 .form-container {
     background-color: rgb(248, 248, 248) !important;
+    
 }
 input {
     text-align: center;
 }
 
-.plates {
-    font-family: 'Driver Gothic';
-    color: rgb(32, 32, 117);
-    text-shadow: 1px 1px #000000;
-}
-body {
-    font-family: 'Driver Gothic';
-}
 
 .plate_img {
     position: relative;
-    text-align: center;
+    text-align: left;
+}
+.platecontainer {
+    position: relative;
+  text-align: center;
+}
+.platetext {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    font-size: 15vw;
+    font-family: 'Driver Gothic' !important;
+    text-align: left !important;
+    color: rgb(36, 36, 126);
+text-shadow: 1px 1px #000000;
 }
 
-.plateText {
+@media screen and (max-width: 767px) {
+    .platetext {
         position: absolute;
         top: 50%;
-        left: 50%;
+        left: 25%;
         transform: translate(-50%, -50%);
-      
-}
+        font-size: 25vw;
+        font-family: 'Driver Gothic' !important;
+        text-align: left !important;
+    
+    text-shadow: 1px 1px #000000;
+    }
+  }

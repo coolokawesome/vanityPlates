@@ -16,8 +16,9 @@ textBox.addEventListener('keyup', e => {
     console.log(textBox.value)
 
     //change image of plate on left side
-
+    
     //get the text overlay element
-    text = $('#plateText').text('').text(textBox.value);
-
+    text = $('#plateText').text('').text((textBox.value).replace(/\s+/g, ''));
+    //strip of any whitespace
+    text = $('#plateText');
 }) 
