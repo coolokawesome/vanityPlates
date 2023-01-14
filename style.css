@@ -111,4 +111,6 @@ font-size: xx-large;
     margin-bottom: 5vh;
     text-decoration: none !important;
 }
-
+.platebutton {
+    background-color: rgba(255, 255, 255, 0.541);
+}
