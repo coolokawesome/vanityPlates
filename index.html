@@ -14,14 +14,13 @@
     <script src="script.js" async></script>
 
     <!-- font -->
-    <link href="//db.onlinewebfonts.com/c/3a729b6d33f8589706763ff9d4192a19?family=Driver+Gothic+Pro" rel="stylesheet" type="text/css"/>
-<!-- JQuery -->
-    <script
-  src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
-  integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo="
-  crossorigin="anonymous"></script>
+    <link href="//db.onlinewebfonts.com/c/3a729b6d33f8589706763ff9d4192a19?family=Driver+Gothic+Pro" rel="stylesheet"
+        type="text/css" />
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.3.slim.min.js"
+        integrity="sha256-ZwqZIVdD3iXNyGHbSYdsmWP//UBokj2FHAxKuSBKDSo=" crossorigin="anonymous"></script>
 
-  <link rel='stylesheet' href="style.css">
+    <link rel='stylesheet' href="style.css">
 </head>
 
 <body>
@@ -43,7 +42,7 @@
     <div>
         <div class="row">
             <div class="col">
-                <h1 class="display-1 text-center m-2">Vanity Plates</h1>
+                <h1 class="display-1 text-center m-2">Vanity Plate Customizer</h1>
             </div>
         </div>
         <div class="row">
@@ -52,9 +51,8 @@
                 col-lg-7
                 col-md-7
                 col-sm-12">
-                <div id='plateContainer'class=" platecontainer rounded-3 m-2 p-3 form-container text-center">
-                    <img class="plate_img img-fluid" src="imgs/plate1.png">
-                    
+                <div id='plateContainer' class=" platecontainer rounded-3 m-2 p-3 form-container text-center">
+                    <img id="plateImg" class="plate_img img-fluid" src="imgs/plate1.png">
                     <p class='platetext offset-3' id="plateText">txthere</p>
                 </div>
             </div>
@@ -68,30 +66,40 @@
                         <h3 class=' display-3 text-center'>Enter Text
                         </h3>
                         <input type="text" id="textBox" class="col-10 offset-1 display-6
-                        border border-1 rounded-pill" maxlength="8" minlength="5"
-                        placeholder="txt here">
+                        border border-1 rounded-pill" maxlength="8" minlength="5" placeholder="txt here">
                         </input>
                         <h5 class="display-6 m-5 text-center">Pick a Plate:</h5>
                         <div class="container">
                             <div class="row">
-                                <div class="col-4">
+
+
+                                <div class="col-6 col-md-4">
                                     <label>1</label>
-                                    <input value='1' id='plate1'type="radio" name="plate" checked>
-                                    <img class="img-fluid" src="plate.png">
+                                    <input value='1' id='plate1' type="radio" name="plate" checked>
+                                    <img class="img-fluid" src="imgs/plate1.png">
                                 </div>
-                                <div class="col-4">
+
+                                <div class="col-6 col-md-4">
                                     <label>2</label>
-                                    <input value="2" id='plate2'type="radio" name="plate">
-                                    <img class="img-fluid" src="#">
+                                    <input value="2" id='plate2' type="radio" name="plate">
+                                    <img class="img-fluid" src="imgs/plate2.png">
                                 </div>
-                                <div class="col-4">
+
+
+                                <div class="col-6 col-md-4">
                                     <label>3</label>
-                                    <input value='3' id='plate3'type="radio" name="plate">
-                                    <img class="img-fluid" src="#">
+                                    <input value='3' id='plate3' type="radio" name="plate">
+                                    <img class="img-fluid" src="imgs/plate3.png">
+                                </div>
+
+                                <div class="col-6 col-md-4">
+                                    <label>4</label>
+                                    <input value='4' id='plate4' type="radio" name="plate">
+                                    <img class="img-fluid" src="imgs/plate4.png">
                                 </div>
 
                             </div>
-                            
+
                         </div>
                     </div>
                 </div>
