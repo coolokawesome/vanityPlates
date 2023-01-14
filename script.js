@@ -11,35 +11,26 @@ console.clear();
  ('plate4');
 
 plate1.addEventListener('mouseup', e => {
-    //change plate
-    $('#plateImg').attr('src', '').attr('src', 'imgs/plate1.png')
-    //add custom text styling
-    $('#plateText').css('color', '#00407e');
-    $('#plateTitle').text('').text('Ontario (white)')
+    plateProperties('imgs/plate1.png', '#00407e', 'Ontario (white)')
 })
 plate2.addEventListener('mouseup', e => {
-    //change plate
-    $('#plateImg').attr('src', '').attr('src', 'imgs/plate2.png')
-    //add custom text styling
-    $('#plateText').css('color', 'white');
-    $('#plateTitle').text('').text('Ontario (blue)')
+    plateProperties('imgs/plate2.png', 'white', 'Ontario (blue)')
 })
 plate3.addEventListener('mouseup', e => {
-    //change plate
-    $('#plateImg').attr('src', '').attr('src', 'imgs/plate3.png')
-    //add custom text styling
-    $('#plateText').css('color', 'rgb(43, 57, 71)');
-    $('#plateTitle').text('').text('Quebec')
+    plateProperties('imgs/plate3.png', 'rgb(43, 57, 71)', 'Quebec')
 })
 plate4.addEventListener('mouseup', e => {
-    //change plate
-    $('#plateImg').attr('src', '').attr('src', 'imgs/plate4.png')
-    //add custom text styling
-    $('#plateText').css('color', 'rgb(170, 16, 16)');
-    $('#plateTitle').text('').text('Alberta')
+    plateProperties('imgs/plate4.png', 'rgb(170, 16, 16)', 'Alberta')
 })
 
-
+//plate properties
+function plateProperties(sourceImg, textColor, title) {
+    //change plate
+    $('#plateImg').attr('src', '').attr('src', sourceImg )
+    //add custom text styling
+    $('#plateText').css('color', textColor);
+    $('#plateTitle').text('').text(title)
+}
 
 //listener for text overlay
 textBox = document.getElementById('textBox')
