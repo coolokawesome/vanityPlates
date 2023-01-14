@@ -1,21 +1,21 @@
+//clean up the console!!
 console.clear();
 
 
-//get text box
+//select and create custom plate
+function plateFunction (plateImg, plateID) {
+    radioValue = null;
+let plate = $('#plateContainer')
+plate.append($('<img>')
+    .attr('class', "plate_img img-fluid")
+    .attr('src', 'plate' + radioValue + ''))
+}
+
+
+//listener for text overlay
 textBox = document.getElementById('textBox')
 
-//get plate 
-
-
-//get the checkbox
-classic = $('#plateClassic')
-
-//function for text overlay
-
 textBox.addEventListener('keyup', e => {
-    console.log(textBox.value)
-
-    //change image of plate on left side
     
     //get the text overlay element
     text = $('#plateText').text('').text((textBox.value).replace(/\s+/g, ''));
