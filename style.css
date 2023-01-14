@@ -28,6 +28,7 @@ input {
     position: relative;
   text-align: center;
 }
+/*change here with custom CSS styling*/
 .platetext {
     position: absolute;
     top: 50%;
@@ -36,8 +37,10 @@ input {
     font-size: 15vw;
     font-family: 'Driver Gothic' !important;
     text-align: left !important;
-    color: rgb(36, 36, 126);
-text-shadow: 1px 1px #000000;
+    /* color profile jquery css class */
+    color: #00407e;
+    text-shadow: 2px 2px 2px #333333;
+   
 }
 
 @media screen and (max-width: 767px) {
@@ -50,6 +53,5 @@ text-shadow: 1px 1px #000000;
         font-family: 'Driver Gothic' !important;
         text-align: left !important;
     
-    text-shadow: 1px 1px #000000;
     }
   }
