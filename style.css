@@ -66,7 +66,7 @@ input {
 }
 
 body {
-    background-color: #f8f6f3;
+    background-color: #e6e4e1;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -93,8 +93,22 @@ font-weight: 900 !important;
 color: black;
 }
 .icon {
-    color: #152c92;
-    text-decoration: none !important;
+    color: #152c92d5;
 align-items: center;
+font-size: xx-large;
+}
+
+.footer {
+    background-color: rgb(0, 0, 0);
+}
+.nav-link {
+    color: white !important; 
+}
+.github {
+    color: white;
+    text-align: center;
+    font-size: xx-large;
+    margin-bottom: 5vh;
+    text-decoration: none !important;
 }
 
