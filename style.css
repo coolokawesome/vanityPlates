@@ -11,15 +11,18 @@
     font-display: swap;
 }
 
-.form-container {
+.form-container,
+.textbox {
     background: rgba(255, 255, 255, 0.57);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(15.1px);
--webkit-backdrop-filter: blur(15.1px);
-border: 1px solid rgba(255, 255, 255, 1);
-    
+    border-radius: 16px;
+    box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(15.1px);
+    -webkit-backdrop-filter: blur(15.1px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #00407e;
+
 }
+
 input {
     text-align: center;
 }
@@ -29,10 +32,12 @@ input {
     position: relative;
     text-align: left;
 }
+
 .platecontainer {
     position: relative;
-  text-align: center;
+    text-align: center;
 }
+
 /*change here with custom CSS styling*/
 .platetext {
     position: absolute;
@@ -56,18 +61,27 @@ input {
         font-size: 25vw;
         font-family: 'Driver Gothic' !important;
         text-align: left !important;
-    
-    }
-  }
 
-  body {
-    background-image: url('https://images.unsplash.com/photo-1464376810568-596bdd5a1897?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1384&q=80');
+    }
+}
+
+body {
+    background-color: rgb(243, 243, 243);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     overflow-x: hidden;
-  }
-  h1 {
-    font-family: 'Roboto',  sans-serif;
-    font-weight: 300 !important;
-  }
+    font-family: 'Proxima Nova', sans-serif !important;
+}
+
+h1 {
+    font-weight: 400 !important;
+    color: #00407e;
+}
+
+.main {
+    background-image: url(https://images.unsplash.com/photo-1478059299873-f047d8c5fe1a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
