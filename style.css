@@ -88,11 +88,13 @@ h1, h2, h3 {
 }
 
 .main {
-    background-image: url(https://d1izvpdngq8vex.cloudfront.net/wp-content/uploads/2019/06/17110535/green-plate-prius.png);
+    background-image: url(imgs/examples/bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    height:80vh;
+    z-index: 9;
 }
+.front_page_container
 
 .front_page_text {
     font-weight: 900 !important;
