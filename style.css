@@ -13,9 +13,9 @@
 
 .form-container,
 .textbox {
-    background: rgba(255, 255, 255, 0.255);
+    background: rgba(255, 255, 255, 0.849);
     border-radius: 16px;
-    box-shadow: 2px 8px 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(15.1px);
     -webkit-backdrop-filter: blur(15.1px);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -66,21 +66,34 @@ input {
         text-align: left !important;
 
     }
+    .description {
+        font-size: 16px !important;
+    }
+}
+
+.description {
+    font-size: 18px;
 }
 
 body {
-    background-color: #e6e4e1;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     overflow-x: hidden;
     font-family: 'Proxima Nova', sans-serif !important;
+
 }
 
 h1, h2, h3 {
     font-family: 'Noto Sans Tangsa', sans-serif;
-    font-weight: 400 !important;
+    font-weight: 700 !important;
     color: #000000;
+}
+
+
+h5 {
+    font-size: xx-large;
 }
 
 .front_page_container {
