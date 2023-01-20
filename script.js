@@ -11,64 +11,57 @@ console.clear();
  ('plate4');
 
 plate1.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate1.png', '#00407e', 'Ontario (white)', false)
+    plateProperties('imgs/plate1.png', '#00407e', 'Ontario (white)')
 })
 plate2.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate2.png', 'white', 'Ontario (blue)', false)
+    plateProperties('imgs/plate2.png', 'white', 'Ontario (blue)')
 })
-plate3.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate3.png', '#0555AE', 'NWT', true)
-})
+// plate3.addEventListener('mouseup', e => {
+//     plateProperties('imgs/plate3.png', '#0555AE', 'NWT')
+// })
 plate4.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate4.png', 'rgb(170, 16, 16)', 'Alberta', false)
+    plateProperties('imgs/plate4.png', 'rgb(170, 16, 16)', 'Alberta')
 })
 plate5.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate5.png', '#00407e', 'Manitoba', false)
+    plateProperties('imgs/plate5.png', '#00407e', 'Manitoba')
 })
 plate6.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate6.png', 'black', 'Nunavut', false)
+    plateProperties('imgs/plate6.png', 'black', 'Nunavut')
 })
 plate7.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate7.png', 'black', 'P.E.I', false)
+    plateProperties('imgs/plate7.png', 'black', 'Prince Edward Island')
 })
 plate8.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate8.png', '#0a4e92', 'B.C.', false)
+    plateProperties('imgs/plate8.png', '#0a4e92', 'British Columbia')
 })
 plate9.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate9.png', 'rgb(170, 30, 25)', 'New Brunswick', false)
+    plateProperties('imgs/plate9.png', 'rgb(170, 30, 25)', 'New Brunswick')
 })
 plate10.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate10.png', '#155a9e', 'Nova Scotia', false)
+    plateProperties('imgs/plate10.png', '#155a9e', 'Nova Scotia')
 })
 plate11.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate11.png', 'black', 'Yukon', false)
+    plateProperties('imgs/plate11.png', 'black', 'Yukon')
 })
 plate12.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate12.png', 'black', 'Quebec', false)
+    plateProperties('imgs/plate12.png', 'black', 'Quebec')
 })
 plate13.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate13.png', '#316350', 'Saskachewan', false)
+    plateProperties('imgs/plate13.png', '#316350', 'Saskachewan')
 })
 plate14.addEventListener('mouseup', e => {
-    plateProperties('imgs/plate14.png', '#00407e', 'Nflnd', false)
+    plateProperties('imgs/plate14.png', '#00407e', 'Newfoundland & Labrador')
 })
 
 
 //plate properties
-function plateProperties(sourceImg, textColor, title, isNWT) {
+function plateProperties(sourceImg, textColor, title) {
     //change plate
     $('#plateImg').attr('src', '').attr('src', sourceImg )
     //add custom text styling
     $('#plateText').css('color', textColor);
     $('#plateTitle').text('').text(title);
-    if (isNWT == true) {
-        $('#plateText').css('transform', 'translate(-60%, -55%')
-        .css('font-size', '10vw').css('rotate', '0.2deg')
-    }
-    else {
-        $('#plateText').css('transform', 'translate(-50%, -50%')
-        .css('font-size', '12vw').css('rotate', '0deg')
-    }
+
 
 }
 

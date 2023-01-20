@@ -21,6 +21,9 @@
     border: 1px solid rgba(255, 255, 255, 1);
     color: #00407e;
 }
+li {
+    text-align: left !important;
+}
 
 input {
     text-align: center;
@@ -76,7 +79,7 @@ input {
 }
 
 body {
-    background-color: #ffffff;
+    background-color: #fcfcfc;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -98,6 +101,10 @@ h5 {
 
 .front_page_container {
     height: 100vh;
+}
+.container-fluid {
+    display: flex !important;
+    justify-content: space-around !important;
 }
 
 .main {
@@ -143,4 +150,7 @@ h5 {
 
 .nav-title {
     color: black !important;
+}
+.plate-container {
+    height: 300px; overflow: auto;
 }
