@@ -1,7 +1,7 @@
 //navbar and footer
 
 nav = $("#nav");
-navContainer = $('<div>').attr('class', 'container-fluid');
+navContainer = $('<div>').attr('class', 'container');
 mainLink = $('<a>').attr('class', 'navbar-brand').attr('href', "/index.html")
     .text('Canadaplates.ca');
 navContainer.append(mainLink);

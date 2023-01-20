@@ -15,7 +15,7 @@
 .textbox {
     background: rgba(255, 255, 255, 0.849);
     border-radius: 16px;
-    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.24);
     backdrop-filter: blur(15.1px);
     -webkit-backdrop-filter: blur(15.1px);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -79,13 +79,15 @@ input {
 }
 
 body {
-    background-color: #fcfcfc;
+    background-color: #f7f7f7;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
     overflow-x: hidden;
     font-family: 'Proxima Nova', sans-serif !important;
-
+}
+#textBox {
+    border: 2px solid black !important;
 }
 
 h1, h2, h3 {
