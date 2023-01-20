@@ -34,13 +34,13 @@ TwoNavLi = $("<li>")
 TwoNavA = $("<a>")
     .attr('class', 'nav-link disabled')
     .attr('style', 'color: grey !important')
-    .text("American Plates - coming soon!");
+    .text("American Plates - Coming Soon!");
 TwoNavLi.append(TwoNavA);
 navUl.append(TwoNavLi);
 ThreeNavLi = $('<li>').attr('class', 'nav-item')
 ThreeNavA = $('<a>').attr('class', 'nav-link')
-    .attr('href', '#')
-    .text('More Info')
+    .attr('href', '/privacy.html')
+    .text('Privacy')
 ThreeNavLi.append(ThreeNavA)
 navUl.append(ThreeNavLi)
 navDiv.append(navUl)
