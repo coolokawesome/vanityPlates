@@ -61,7 +61,6 @@ function plateProperties(sourceImg, textColor, title, isNWT) {
     //add custom text styling
     $('#plateText').css('color', textColor);
     $('#plateTitle').text('').text(title);
-    console.log(isNWT)
     if (isNWT == true) {
         $('#plateText').css('transform', 'translate(-60%, -55%')
         .css('font-size', '10vw').css('rotate', '0.2deg')
