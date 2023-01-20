@@ -6,7 +6,6 @@ source = $('#sourceRow')
 numberOfPlates = 13
 
 for ( let i = 0; i < numberOfPlates; i++) {
-    console.log('fuck' + (i + 1))
     var itemDiv = $('<div>').attr('class', 'col-sm-6 col-md-6 col-lg-6 col-xl-3')
     var plateLabel = $('<label>').text([i + 1])
     itemDiv.append(plateLabel)
