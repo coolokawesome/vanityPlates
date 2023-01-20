@@ -1,5 +1,4 @@
 //clean up the console!!
-console.clear();
 
  plate1 = document.getElementById
  ('plate1');

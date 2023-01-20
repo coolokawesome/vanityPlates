@@ -93,6 +93,10 @@ h1, h2, h3 {
     font-weight: 700 !important;
     color: #000000;
 }
+#text {
+    font-family: 'Proxima Nova', sans-serif !important;
+}
+
 
 
 h5 {
