@@ -28,7 +28,14 @@ li {
 input {
     text-align: center;
 }
-
+.nav-link {
+    font-weight: 600;
+    font-family: 'Proxima Nova', sans-serif !important;
+}
+.navbar-brand {
+    font-weight: 600;
+    font-family: 'Proxima Nova', sans-serif !important;
+}
 
 .plate_img {
     position: relative;
