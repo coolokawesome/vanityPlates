@@ -166,4 +166,5 @@ h5 {
 }
 .plate-container {
     height: 300px; overflow: auto;
+    background-color: #e1e2e6;
 }
