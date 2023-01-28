@@ -86,7 +86,7 @@ input {
 }
 
 body {
-    background-color: #f1f1f1;
+    background-color: hsl(216, 100%, 96%);
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
