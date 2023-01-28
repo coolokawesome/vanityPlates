@@ -6,7 +6,7 @@ source = $('#sourceRow')
 
 numberOfPlatesCanada = 13
 for ( let i = 0; i < numberOfPlatesCanada; i++) {
-    var itemDiv = $('<div>').attr('class', 'col-sm-6 col-md-6 col-lg-6 col-xl-3')
+    var itemDiv = $('<div>').attr('class', 'col-6 col-sm-6 col-md-12 col-lg-6 col-xl-6 col-xxl-3')
     var plateLabel = $('<label>').text([i + 1])
     itemDiv.append(plateLabel)
     var input = $('<input>').attr('value', (i + 1)).attr('id', 'plate' + (i + 1)).attr('type', 'radio').attr('name', 'plate')

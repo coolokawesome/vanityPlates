@@ -15,7 +15,7 @@
 .textbox {
     background: rgba(255, 255, 255, 0.849);
     border-radius: 16px;
-    box-shadow: 2px 8px 15px rgba(0, 0, 0, 0.24);
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.24);
     backdrop-filter: blur(15.1px);
     -webkit-backdrop-filter: blur(15.1px);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -86,7 +86,7 @@ input {
 }
 
 body {
-    background-color: #f7f7f7;
+    background-color: #f1f1f1;
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -94,7 +94,10 @@ body {
     font-family: 'Proxima Nova', sans-serif !important;
 }
 #textBox {
-    border: 2px solid black !important;
+    border: 2px solid #868686d5 !important;
+}
+#textbox[type="text"]:focus::before {
+    border: 2px solid #ff0000d5 !important;
 }
 
 h1, h2, h3 {
@@ -106,9 +109,8 @@ h1, h2, h3 {
     font-family: 'Proxima Nova', sans-serif !important;
 }
 
-
-
 h5 {
+    color: rgb(41, 66, 112);
     font-size: x-large;
 }
 
@@ -158,13 +160,19 @@ h5 {
 }
 
 .platebutton {
-    background-color: rgba(255, 255, 255, 0.541);
+    background-color: rgba(255, 0, 0, 0.733);
 }
 
 .nav-title {
-    color: black !important;
+    color: rgb(184, 184, 184) !important;
 }
 .plate-container {
     height: 300px; overflow: auto;
-    background-color: #e1e2e6;
+    background-color: #e9e9eb;
+}
+
+input[type='radio'] { transform: scale(1.6);
+margin-left: 8px }
+.navbar {
+    background-color: #132472d5 !important;
 }

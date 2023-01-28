@@ -33,7 +33,7 @@ TwoNavLi = $("<li>")
     .attr('class', 'nav-item');
 TwoNavA = $("<a>")
     .attr('class', 'nav-link disabled')
-    .attr('style', 'color: grey !important')
+    .attr('style', 'color: rgb(184, 184, 184) !important')
     .text("American Plates - Coming Soon!");
 TwoNavLi.append(TwoNavA);
 navUl.append(TwoNavLi);
