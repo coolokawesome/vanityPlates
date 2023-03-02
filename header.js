@@ -25,7 +25,7 @@ OneNavLi = $("<li>")
     .attr('class', 'nav-item')
 OneNavA = $("<a>")
     .attr('class', 'nav-link')
-    .attr('href', 'index.html')
+    .attr('href', './index.html')
     .text("Canadian Plates")
 OneNavLi.append(OneNavA);
 navUl.append(OneNavLi);
@@ -39,7 +39,7 @@ TwoNavLi.append(TwoNavA);
 navUl.append(TwoNavLi);
 ThreeNavLi = $('<li>').attr('class', 'nav-item')
 ThreeNavA = $('<a>').attr('class', 'nav-link')
-    .attr('href', '/privacy.html')
+    .attr('href', './privacy.html')
     .text('Privacy')
 ThreeNavLi.append(ThreeNavA)
 navUl.append(ThreeNavLi)
