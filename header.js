@@ -2,7 +2,7 @@
 
 nav = $("#nav");
 navContainer = $('<div>').attr('class', 'container');
-mainLink = $('<a>').attr('class', 'navbar-brand').attr('href', "index.html")
+mainLink = $('<a>').attr('class', 'navbar-brand').attr('href', "./index.html")
     .text('Canadaplates.ca');
 navContainer.append(mainLink);
 navButton = $('<button>')
@@ -52,11 +52,11 @@ footerContainer = $("<div>").attr('class', 'container')
 mainFooter = $('<footer>').attr('class', 'py-3')
 footerUL = $("<ul>").attr('class', 'nav justify-content-center border-bottom pb-3 mb-3')
 footerUlListItemOne = $("<li>").attr('class', 'nav-item')
-footerAnchorOne = $('<a>').attr('href', 'index.html').attr('class', 'nav-link px-2 text-muted').text('Home')
+footerAnchorOne = $('<a>').attr('href', './index.html').attr('class', 'nav-link px-2 text-muted').text('Home')
 footerUlListItemOne.append(footerAnchorOne)
 footerUL.append(footerUlListItemOne)
 footerUlListItemTwo = $("<li>").attr('class', 'nav-item')
-footerAnchorTwo = $("<a>").attr('href', '/privacy.html').attr('class', 'nav-link px-2 text-muted').text('Privacy')
+footerAnchorTwo = $("<a>").attr('href', './privacy.html').attr('class', 'nav-link px-2 text-muted').text('Privacy')
 footerUlListItemTwo.append(footerAnchorTwo)
 footerUL.append(footerUlListItemTwo)
 mainFooter.append(footerUL)
